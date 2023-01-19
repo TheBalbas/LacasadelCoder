@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body class="contenido">
+    <header>
+        <div class="header">
+            <a href="../Index.html" class="logo">Kiseki</a>
+            <div class="header-right">
+                <ul>
+                    <li><a href="../Index.html">Home</a></li>
+                    <li><a href="nuevaPreventa.html"> Nueva Preventa</a></li>
+                    <li><a href="productos.html"> Productos</a></li>
+                    <li><a class="active" href="contacto.html"> Contacto</a></li>
+                    <li><a href="preguntasFrecuentes.html"> Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="sectionA">
+        <h1>Formulario de Contacto</h1>
+        <form class="formulario">
+            <label for="">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            <br><br>
+            <label for="">Edad</label>
+            <br>
+            <input type="number" id="edad" placeholder="Ingrese su edad">
+            <br><br>
+            <div class="genero">Hombre</div>
+            <input type="radio" name="sexo" value="hombre" />
+            <div class="genero">Mujer</div>
+            <input type="radio" name="sexo" value="mujer" />
+            <div class="genero">Otro</div>
+            <input type="radio" name="sexo" value="mujer" />
+            <br><br>
+            <label for="">Domicilio</label>
+            <input type="text" id="Domicilio" placeholder="Ingrese su Domicilio">
+            <br><br>
+            <label for="">Mail</label>
+            <br>
+            <input type="mail" id="mail" placeholder="Ingrese su Mail">
+            <br><br>
+            <select name="¿Sobre que es su consulta?">
+                <option value="Sobre algun producto en especifico">Sobre algun producto en especifico</option>
+                <option value="Sobre metodos de envio">Sobre metodos de envio</option>
+                <option value="Para poder contactarnos por otra situacion">Para poder contactarnos por otra situacion
+                </option>
+                <br><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+                <br><br>
+                <input class="input" type="submit" value="Enviar formulario" />
+                <input type="reset" value="Limpiar formulario" />
+
+        </form>
+    </section>
+    <footer>
+        <h3>Todos los derechos reservados</h3>
+    </footer>
+</body>
+
+</html>
