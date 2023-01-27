@@ -10,7 +10,7 @@ Selector  {
 
 header{
   overflow: hidden;
-  background-color: #581722;
+  background-color: #ffffff;
 }
 header li {
   margin-right: 5px;
@@ -48,7 +48,7 @@ header li {
   }
 footer {
   margin: 15px;
-  background-color: rgb(75, 20, 20);
+  background-color: rgb(0, 0, 0);
   display:flex ;
   align-items: center;
   justify-content: center;
@@ -167,7 +167,9 @@ input[type=text] {
   justify-content: center;
   align-items: center;
 } 
-
+.homeTexto {
+    text-align: center;
+  }
 
 .textoForm {
   text-align: center;
