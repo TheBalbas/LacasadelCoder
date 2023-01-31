@@ -96,6 +96,9 @@ h1 {
   animation-name: texto;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
