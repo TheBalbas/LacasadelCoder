@@ -10,52 +10,78 @@
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
-<body class="container ">
-    <header>
-        <div class="header">
-            <a href="../index.html" class="logo">Kiseki</a>
-            <div class="header-right">
-                <ul class="listaNav">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="nuevaPreventa.html"> Nueva Preventa</a></li>
-                    <li><a href="Productos/productos.html"> Productos</a></li>
-                    <li><a class="active" href="contacto.html"> Contacto</a></li>
-                    <li><a href="preguntasFrecuentes.html"> Preguntas Frecuentes</a></li>
-                </ul>
-            </div>
-        </div>
+<body class="container-fluid">
+    <header class="d-flex justify-content-center">
+        <a class="d-flex justify-content-center" title="logoHome" href="../index.html"><img class="imagenLogo" src="../Imagenes/isotipo.png" alt="LogoHome" /></a>
     </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuevaPreventa.html">Nueva Preventa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Productos/productos.html">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/Productos/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Productos/productosRemeras.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="Productos/productosPantalones.html">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="Productos/productosGorras.html">Gorras</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <section class="sectionA">
         <h1 class="textoForm">Formulario de Contacto</h1>
         <form class="formulario">
-            <label for="">Nombre</label>
-            <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            <h3 class="m-2 p-2 a">Nombre</h3>
+            <input class="m-2 p-2"type="text" id="nombre" placeholder="Ingrese su nombre">
             <br><br>
-            <label for="">Edad</label>
-            <br>
-            <input type="number" id="edad" placeholder="Ingrese su edad">
+            <h3 class="m-2 p-2 a">Edad</h3>
+            <input class="m-2 p-2" type="number" id="edad" placeholder="Ingrese su edad">
             <br><br>
-            <div class="genero">Hombre</div>
-            <input type="radio" name="sexo" value="hombre" />
-            <div class="genero">Mujer</div>
+            <h3 class="m-2 p-2 a">Genero</h3>
+            <div class="m-2 p-2 genero">Hombre</div>
+            <input class=""type="radio" name="sexo" value="hombre" />
+            <div class="m-2 p-2 genero">Mujer</div>
             <input type="radio" name="sexo" value="mujer" />
-            <div class="genero">Otro</div>
+            <div class="m-2 p-2 genero">Otro</div>
             <input type="radio" name="sexo" value="mujer" />
             <br><br>
-            <label for="">Domicilio</label>
-            <input type="text" id="Domicilio" placeholder="Ingrese su Domicilio">
+            <h3 class="m-2 p-2 a">Domicilio</h3>
+            <input class="m-2 p-2" type="text" id="Domicilio" placeholder="Ingrese su Domicilio">
             <br><br>
-            <label for="">Mail</label>
-            <br>
-            <input type="mail" id="mail" placeholder="Ingrese su Mail">
+           <h3 class="m-2 p-2 a">Mail</h3>
+            <input class="m-2 p-2" type="mail" id="mail" placeholder="Ingrese su Mail">
             <br><br>
-            <select name="¿Sobre que es su consulta?">
+            <select class="m-2 p-2" name="¿Sobre que es su consulta?">
                 <option value="Sobre algun producto en especifico">Sobre algun producto en especifico</option>
                 <option value="Sobre metodos de envio">Sobre metodos de envio</option>
                 <option value="Para poder contactarnos por otra situacion">Para poder contactarnos por otra situacion
                 </option>
                 <br><br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+                <textarea class="m-2 p-2" name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
                 <br><br>
                 <input class="input" type="submit" value="Enviar formulario" />
                 <input type="reset" value="Limpiar formulario" />

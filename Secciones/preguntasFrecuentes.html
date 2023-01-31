@@ -10,21 +10,48 @@
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
-<body class="container text-center">
-    <header>
-        <div class="header">
-            <a href="../index.html" class="logo">Kiseki</a>
-            <div class="header-right">
-                <ul class="listaNav">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="nuevaPreventa.html"> Nueva Preventa</a></li>
-                    <li><a href="Productos/productos.html"> Productos</a></li>
-                    <li><a href="contacto.html"> Contacto</a></li>
-                    <li><a class="active" href="preguntasFrecuentes.html"> Preguntas Frecuentes</a></li>
+<body class="container-fluid text-center">
+    <header class="d-flex justify-content-center">
+        <a class="d-flex justify-content-center" title="logoHome" href="../index.html"><img class="imagenLogo" src="../Imagenes/isotipo.png" alt="LogoHome" /></a>
+</header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuevaPreventa.html">Nueva Preventa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Productos/productos.html">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Productos/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Productos/productosRemeras.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="Productos/productosPantalones.html">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="Productos/productosGorras.html">Gorras</a></li>
                 </ul>
-            </div>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </header>
+      </nav>
     <h1 class="homeTexto">Preguntas frecuentres</h1>
     <section class="sectionA">
         <div>
