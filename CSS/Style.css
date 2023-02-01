@@ -48,6 +48,7 @@ a {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: small;
     
 }
 
@@ -60,8 +61,12 @@ a:hover {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
+}
+p {
+  font-size:x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @keyframes texto {
   0% {
@@ -198,7 +203,4 @@ text-align: center;
     flex-direction: column;
   }
   }
-  .imagenesProducto {
-    display: inline-flex;
-    flex-direction: column;
-  }
+  
