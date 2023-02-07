@@ -1,0 +1,264 @@
+@import "_variables";
+@keyframes texto {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+header {
+	overflow: hidden;
+	background-color: $rojo-oscuro;
+	width: 100%;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+}
+.footer-basic {
+	padding: 40px 0;
+	background-color:$rojo-oscuro;
+	color: $blanco;
+	ul {
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 0;
+		a {
+			color: $blanco;
+			text-decoration: none;
+			opacity: 0.8;
+			&:hover {
+				opacity: 1;
+				color: $negro;
+			}
+		}
+	}
+	li {
+		padding: 0 10px;
+	}
+	.social {
+		text-align: center;
+		padding-bottom: 25px;
+		>a {
+			font-size: 24px;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			display: inline-block;
+			text-align: center;
+			border-radius: 50%;
+			border: 1px solid #ccc;
+			margin: 0 8px;
+			color: $blanco;
+			opacity: 0.75;
+			&:hover {
+				opacity: 0.9;
+				color: $negro;
+			}
+		}
+	}
+	.copyright {
+		margin-top: 15px;
+		text-align: center;
+		font-size: 13px;
+		color: $gris-claro;
+		margin-bottom: 0;
+	}
+}
+body {
+	color: $blanco;
+	font-size: 25px;
+	font-family: $font-family_1;
+	line-height: 1.6;
+	background-color: $gris;
+}
+.imagenLogo {
+	width: 20%;
+}
+.imagenLogo2 {
+	box-sizing: border-box;
+	padding: 10px;
+	width: 500px;
+	height: 370px;
+}
+a {
+	text-decoration: none;
+	color: $negro;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: small;
+	font-family: $font-family_2;
+	&:hover {
+		color: 3;
+		transition: all 0.3s;
+	}
+}
+.a {
+	text-decoration: none;
+	color: $negro;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+}
+p {
+	font-size: x-large;
+	font-family: $font-family_3;
+}
+h1 {
+	animation-name: texto;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	color: $rojo-oscuro;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.imagenesProducto {
+	border-radius: 4px;
+	height: auto;
+	max-width: 100%;
+	&:hover {
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		box-shadow: 0px 0px 15px 15px #5f1204;
+		-webkit-box-shadow: 0px 0px 15px 15px #6b1303;
+		transition: all 0.3s;
+	}
+}
+.boton {
+	background-color: $negro;
+	&:hover {
+		background-color: $rojo-claro;
+		transition: all 0.3s;
+	}
+}
+table {
+	border: 1px solid;
+}
+th {
+	border: 1px solid;
+}
+td {
+	border: 1px solid;
+}
+input[type=text] {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+textarea {
+	width: 100%;
+	margin-top: 10px;
+	height: 150px;
+	padding: 11px 15px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: $blanco;
+	resize: none;
+}
+select {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: $blanco;
+}
+input[type=button] {
+	background-color: $negro;
+	border: none;
+	color: $blanco;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+input[type=submit] {
+	background-color: $negro;
+	border: none;
+	color: $blanco;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+input[type=reset] {
+	background-color: $negro;
+	border: none;
+	color: $blanco;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+input {
+	&:focus {
+		background-color: $beige;
+		border: none;
+	}
+}
+.genero {
+	display: inline;
+}
+.ropaTienda {
+	display: inline-flex;
+	padding-right: 10px;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	&:hover {
+		filter: blur(2px);
+	}
+}
+.tituloTienda {
+	text-align: center;
+}
+.bordeListita {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.homeImagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.homeTexto {
+	text-align: center;
+}
+.textoForm {
+	text-align: center;
+}
+.sectionPV {
+	display: inline;
+	text-align: center;
+	display: block;
+}
+.formulario {
+	background-color: $gris-claro;
+}
+@media (max-width:900px) and (min-width: 400px) {
+	.listaNav {
+		display: flex;
+		flex-direction: column;
+	}
+	.ropaTienda {
+		display: inline-flex;
+		flex-direction: column;
+	}
+	.lista {
+		display: none !important;
+	}
+	p {
+		color:#5f1204;
+		font-size: medium;
+	}
+	.a {
+		font-size: small;
+	}
+}
