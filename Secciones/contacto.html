@@ -53,42 +53,48 @@
           </div>
         </div>
       </nav>
-    <section class="sectionA">
-        <h1 class="p-3 textoForm">Formulario de Contacto</h1>
-        <form class="formulario">
-            <h3 class="m-2 p-2 a">Nombre</h3>
-            <input class="m-2 p-2"type="text" id="nombre" placeholder="Ingrese su nombre">
-            <br><br>
-            <h3 class="m-2 p-2 a">Edad</h3>
-            <input class="m-2 p-2" type="number" id="edad" placeholder="Ingrese su edad">
-            <br><br>
-            <h3 class="m-2 p-2 a">Genero</h3>
-            <div class="m-2 p-2 genero">Hombre</div>
-            <input class=""type="radio" name="sexo" value="hombre" />
-            <div class="m-2 p-2 genero">Mujer</div>
-            <input type="radio" name="sexo" value="mujer" />
-            <div class="m-2 p-2 genero">Otro</div>
-            <input type="radio" name="sexo" value="mujer" />
-            <br><br>
-            <h3 class="m-2 p-2 a">Domicilio</h3>
-            <input class="m-2 p-2" type="text" id="Domicilio" placeholder="Ingrese su Domicilio">
-            <br><br>
-           <h3 class="m-2 p-2 a">Mail</h3>
-            <input class="m-2 p-2" type="mail" id="mail" placeholder="Ingrese su Mail">
-            <br><br>
-            <select class="m-2 p-2" name="¿Sobre que es su consulta?">
-                <option value="Sobre algun producto en especifico">Sobre algun producto en especifico</option>
-                <option value="Sobre metodos de envio">Sobre metodos de envio</option>
-                <option value="Para poder contactarnos por otra situacion">Para poder contactarnos por otra situacion
-                </option>
-                <br><br>
-                <textarea class="m-2 p-2" name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-                <br><br>
-                <input class="input" type="submit" value="Enviar formulario" />
-                <input type="reset" value="Limpiar formulario" />
-
-        </form>
-    </section>
+      <h1 class="m-2 text-center">Formulario de contacto</h1>
+      <div class="contact_form">
+        <div class="formulario">      
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>    
+              <form>       
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span >*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+                    </p>  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span>*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                        <span>*</span>
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>                     
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span>*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto"  placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span>*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"  placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button class="boton"><p>Enviar</p></button>                
+              </form>
+        </div>  
+      </div>
     <footer class>
       <div class=" m-1 footer-basic">
           <div class="social"><a href="https://www.instagram.com/elbalbas/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/matiasgabrielba"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>

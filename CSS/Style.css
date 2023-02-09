@@ -146,80 +146,6 @@ h1 {
   transition: all 0.3s;
 }
 
-table {
-  border: 1px solid;
-}
-
-th {
-  border: 1px solid;
-}
-
-td {
-  border: 1px solid;
-}
-
-input[type=text] {
-  width: 60%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-textarea {
-  width: 100%;
-  margin-top: 10px;
-  height: 150px;
-  padding: 11px 15px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #ffffff;
-  resize: none;
-}
-
-select {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #ffffff;
-}
-
-input[type=button] {
-  background-color: rgb(0, 0, 0);
-  border: none;
-  color: #ffffff;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-input[type=submit] {
-  background-color: rgb(0, 0, 0);
-  border: none;
-  color: #ffffff;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-input[type=reset] {
-  background-color: rgb(0, 0, 0);
-  border: none;
-  color: #ffffff;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-input:focus {
-  background-color: burlywood;
-  border: none;
-}
-
 .genero {
   display: inline;
 }
@@ -266,8 +192,77 @@ input:focus {
   display: block;
 }
 
-.formulario {
-  background-color: #aaa;
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #9b1616;
+  padding-left: 30px;
+}
+.contact_form p {
+  color: rgb(0, 0, 0);
+}
+.contact_form input {
+  background-color: #ffffff;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.contact_form textarea {
+  background-color: #ffffff;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form label {
+  display: block;
+  float: center;
+}
+.contact_form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-color: rgb(114, 109, 109);
+  border-style: solid;
+  border-radius: 10px;
+  width: 410px;
+  cursor: pointer;
+}
+.contact_form button p {
+  color: rgb(0, 0, 0);
+}
+.contact_form h3 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+  font-family: helvetica;
+}
+.contact_form span {
+  color: #d60a0a;
+}
+.contact_form .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
 
 @media (max-width: 900px) and (min-width: 400px) {
