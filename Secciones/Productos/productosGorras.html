@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Tu tienda favorita de ropa de anime y manga.">
+    <title>KisekiStore</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../CSS/Style.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/isotipo.png">
 </head>
 
 <body class="container-fluid text-center">
@@ -46,9 +49,31 @@
                 </ul>
               </li>
             </ul>
+            <div class="login m-3 dropdown">
+              <i type="button" class="bi bi-box-arrow-in-right btn-primary" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"></i>
+              <form class="dropdown-menu m-3 p-4">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="contraseña">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Recuerdame
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="boton btn">Ingresar</button>
+              </form>
+            </div>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <button class="boton" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -56,21 +81,92 @@
     <section class="p-4 container text-center sectionA">
         <h1 class="a">Gorras</h1>
     </section>
-    <div><a href="productos.html" class="btn btn-primary boton" tabindex="-1" role="button">Atras</a></div>
-    <section class="container text-center">
-        <div class="row">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 1">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 2">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 3">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 4">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 5">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 6">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 7">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 8">
-           <img class="col ropaTienda rounded" src="../../Imagenes/gorras.png" alt="Gorras 9">
-
-        </div>
-    </section>
+    <div><a href="productos.html" class="btn boton" tabindex="-1" role="button">Atras</a></div>
+    <section class="section-products">
+      <div class="container">
+          <div class="row justify-content-center text-center">
+              <div class="col-md-8 col-lg-6">
+                  <div class="header">
+                      <h3>Productos Populares</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div id="product-1" class="single-product">
+                      <div class="part-1">
+                        <span class="new">new</span>
+                          <ul>
+                              <li><a href="#"><i class="bi bi-cart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-plus-circle"></i></a></li>
+                              <li><a href="#"><i class="bi bi-arrows-angle-expand"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="part-2">
+                          <h3 class="product-title">Gorra Berserk</h3>
+                          <h4 class="product-price">$3500$</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div id="product-2" class="single-product">
+                      <div class="part-1">
+                          <span class="discount">50% off</span>
+                          <ul>
+                              <li><a href="#"><i class="bi bi-cart"></i></i></a></li>
+                              <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-plus-circle"></i></a></li>
+                              <li><a href="#"><i class="bi bi-arrows-angle-expand"></i></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="part-2">
+                          <h3 class="product-title">Gorra Evangelion</h3>
+                          <h4 class="product-old-price">5000$</h4>
+                          <h4 class="product-price">2500$</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div id="product-3" class="single-product">
+                      <div class="part-1">
+                        <span class="discount">50% off</span>
+                          <ul>
+                              <li><a href="#"><i class="bi bi-cart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-plus-circle"></i></a></li>
+                              <li><a href="#"><i class="bi bi-arrows-angle-expand"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="part-2">
+                          <h3 class="product-title">Gorra Chopper One Piece</h3>
+                          <h4 class="product-old-price">8000$</h4>
+                          <h4 class="product-price">4000$</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-4" class="single-product">
+                    <div class="part-1">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-cart"></i></a></li>
+                            <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                            <li><a href="#"><i class="bi bi-plus-circle"></i></a></li>
+                            <li><a href="#"><i class="bi bi-arrows-angle-expand"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="part-2">
+                        <h3 class="product-title">Gorra Shingeki no Kyojin</h3>
+                        <h4 class="product-price">4000$</h4>
+                      </div>
+                  </div>
+              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
       <footer>
         <div class=" m-1 footer-basic">
           <div class="social"><a href="https://www.instagram.com/elbalbas/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/matiasgabrielba"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>

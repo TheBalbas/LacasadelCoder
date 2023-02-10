@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tu tienda favorita de ropa de anime y manga.">
     <title>KisekiStore</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/isotipo.png">
+    
 </head>
 <body class="container-fluid text-center">
     <header class="d-flex justify-content-center">
@@ -45,9 +49,31 @@
                 </ul>
               </li>
             </ul>
+            <div class="login m-3 dropdown">
+              <i type="button" class="bi bi-box-arrow-in-right btn-primary" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"></i>
+              <form class="dropdown-menu m-3 p-4">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="contraseña">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Recuerdame
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="boton btn">Ingresar</button>
+              </form>
+            </div>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <button class="boton" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -57,13 +83,13 @@
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img  src="Imagenes/imagenhome1.jpg" class="rounded d-block w-100" alt="Guts">
+                <img  src="Imagenes/imagenhome1.jpg" class="rounded d-block w-100" alt="Imagen de Guts">
               </div>
               <div class="carousel-item">
-                <img  src="Imagenes/imagenHome2.jpg" class="rounded d-block w-100" alt="Nana">
+                <img  src="Imagenes/imagenHome2.jpg" class="rounded d-block w-100" alt="Imagen de Nana">
               </div>
               <div class="carousel-item">
-                <img  src="Imagenes/imagenHome3.jpg" class="rounded d-block w-100" alt="One Piece">
+                <img  src="Imagenes/imagenHome3.jpg" class="rounded d-block w-100" alt="Imagen de OnePiece">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
