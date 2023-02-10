@@ -352,7 +352,7 @@ i:hover {
   height: 40px;
   line-height: 40px;
   background-color: #ffffff;
-  color: rgb(114, 109, 109);
+  color: rgb(253, 7, 7);
   text-align: center;
   transition: color 0.2s;
 }
@@ -400,6 +400,38 @@ i:hover {
   background-size: cover;
 }
 .section-products #product-4 .part-1::before {
+  background: url("https://static.wixstatic.com/media/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+  background: url("https://www.dhresource.com/0x0/f2/albu/g22/M00/F7/75/rBNaEmJffImAVTdKAAEcoVAES8w544.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+  background: url("https://static.bershka.net/4/photos2/2021/I/0/2/p/5440/220/800/5440220800_2_4_1.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+  background: url("https://d22fxaf9t8d39k.cloudfront.net/f44e41c3b111ff6d2bde7e8cedcb8c64ff04788959c0479b13187639c1a558fa3717.jpeg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+  background: url("https://media.revistagq.com/photos/6024f63540a1d479f12b5fe5/master/w_1920,h_1280,c_limit/020221_Pokemon_01.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+  background: url("https://static.wixstatic.com/media/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-10 .part-1::before {
+  background: url("https://static.wixstatic.com/media/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-11 .part-1::before {
+  background: url("https://static.wixstatic.com/media/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-12 .part-1::before {
   background: url("https://static.wixstatic.com/media/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/0e4cd5_172b7ac2d1b24ea990e641d1e565e1a9~mv2.jpg") no-repeat center;
   background-size: cover;
 }
