@@ -471,6 +471,11 @@ i:hover {
     display: flex;
     flex-direction: column;
   }
+  .columna {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
 
 /*# sourceMappingURL=Style.css.map */
