@@ -295,6 +295,10 @@ h1 {
   transition: all 0.3s;
 }
 
+.textoProducto {
+  color: #ffffff;
+}
+
 i {
   font-size: xx-large;
 }
