@@ -492,6 +492,10 @@ i:hover {
   background-size: cover;
 }
 
+iframe {
+  width:"300"; 
+  height:"150";
+}
 @media (max-width: 900px) and (min-width: 400px) {
   .listaNav {
     display: flex;
