@@ -17,8 +17,8 @@ header {
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
+position: relative;
+bottom: 0;
 }
 
 .footer-basic {
@@ -84,6 +84,7 @@ header {
 }
 
 body {
+  padding-bottom: 70px;
   color: #ffffff;
   font-size: 25px;
   font-family: poppins;
@@ -108,7 +109,7 @@ a {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: small;
+  font-size:large;
   font-family: poppins;
 }
 
@@ -517,7 +518,7 @@ i:hover {
 }
 
 
-@media (max-width: 900px) and (min-width: 400px) {
+@media (max-width: 767px) and (min-width: 360px) {
   .listaNav {
     display: flex;
     flex-direction: column;
